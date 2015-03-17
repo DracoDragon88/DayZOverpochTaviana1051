@@ -1,7 +1,7 @@
 respawn = "BASE";
 respawndelay = 5;
 onLoadMission="DayZ_Epoch Taviana";
-OnLoadIntro = "Welcome to Taviana";
+OnLoadIntro = "Welcome to DracoNet OverPoch Taviana";
 OnLoadIntroTime = False;
 OnLoadMissionTime = False;
 disabledAI = true;
@@ -13,14 +13,14 @@ debriefing = 0;
 
 onPauseScript = "";
 //### BEGIN MODIFIED CODE: splash screen
-loadScreen = "overwrites\splash.jpg";
+loadScreen = "overwrites\DayzLoadingScreen.jpg";
 //### END MODIFIED CODE: splash screen
 
 class Header
 {
  gameType = COOP;            //DM, Team, Coop, ...
  minPlayers = 1;             //min # of players the mission supports
- maxPlayers = 100;            //Max # of players the mission supports
+ maxPlayers = 30;            //Max # of players the mission supports
 };
 
 aiKills = 1;
