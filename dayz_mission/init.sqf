@@ -143,7 +143,8 @@ call compile preprocessFileLineNumbers "overwrites\fast_trading\init.sqf";
 //### mods maintained by other people >>
 
 // safe zones
-call compile preprocessFileLineNumbers "addons\safezones\init.sqf";
+//call compile preprocessFileLineNumbers "addons\safezones\init.sqf";
+call compile preprocessFileLineNumbers "addons\safezones\SafeZone.sqf";
 
 // delete unused parachutes
 //call compile preprocessFileLineNumbers "addons\antipara\init.sqf";
